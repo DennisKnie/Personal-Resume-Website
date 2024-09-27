@@ -1,0 +1,1 @@
+This is for my personal website to showcase my resume, portfolio and person projects I have created and what I am capable of accomplishing. This will have multiple pages to showcase all the different information pertaining to myself.
