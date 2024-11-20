@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style\styles.css">
+    <title>Dennis Knie's Resume & Portfolio</title>
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="Personal Resume Website/index.html">Home</a></li>
-            <li><a href="news.asp">News</a></li>
-            <li><a href="contact.asp">Contact</a></li>
-            <li><a href="about.asp">About</a></li>
-          </ul>
-    </nav>
 
-    
+<body>
+    <section>
+        <div class="sidenav">
+            <img src="pictures\headshot.jfif" style="width:100%" ">
+            <a href=" home ">Home</a>
+            <a href="skills ">Skills</a>
+            <a href="training ">Training</a>
+            <a href="education ">Education</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="main ">
+            <h2>You can see different images depending on the browser width.</h2>
+            <p>Resize the browser width and the image will change at 600px and 1500px.</p>\
+
+            <picture>
+            <source srcset="pictures\PirateShip.jpg " media="(max-width: 600px) ">
+            <source srcset="pictures\SkullandBones.jpg " media="(max-width: 1500px) ">
+            <source srcset=" pictures/ ">
+            <img src=" pictures/ " alt="img name " style="width:100%; ">
+            </picture>
+
+        </div>
+    </section>
 </body>
+
 </html>
